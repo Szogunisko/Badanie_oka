@@ -1,0 +1,13 @@
+Żeby nie mieć problemu z instalacjami warto stworzyć sobie środowowisko pythona dla tego projektu. W CMD:
+
+python -m venv UNET
+UNET\Scripts\activate
+
+Pamiętaj tylko aby zmienić kernela w jupyterze na UNET
+
+A potem można instalować:
+
+pip install matplotlib
+pip install tensorflow
+pip install pillow
+pip install git+https://github.com/tensorflow/examples.git
