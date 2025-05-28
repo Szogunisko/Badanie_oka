@@ -1,0 +1,28 @@
+
+unet/
+_pychase_/
+dane/maski/
+dane/naczynia/
+dane/obrazy/
+
+# Ignorowanie plików kompilacji Pythona
+*.pyc
+__pycache__/
+
+# Ignorowanie wirtualnych środowisk
+venv/
+.env/
+.venv/
+
+# Ignorowanie plików konfiguracyjnych IDE
+.vscode/
+.idea/
+*.swp
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie plików tymczasowych systemu
+.DS_Store
+Thumbs.db
+
